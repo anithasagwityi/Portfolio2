@@ -358,4 +358,13 @@ body{
     background: var(--second-bg-color);
 }
 
+.education {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: auto;
+    padding-bottom: 5rem;
+
+}
 
