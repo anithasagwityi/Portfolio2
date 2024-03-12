@@ -316,6 +316,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: right;
 }
 
 .about-img img{
@@ -341,7 +342,7 @@ body{
 }
 
 .about-content {
-    text-align: center;
+    text-align: left;
 }
 
 .about-content h4 {
@@ -364,7 +365,79 @@ body{
     align-items: center;
     flex-direction: column;
     min-height: auto;
-    padding-bottom: 5rem;
+    padding-bottom: 3rem;
 
 }
 
+.timeline {
+    position: relative;
+    padding: 20px;
+  }
+  
+  .entry {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  
+  .date {
+    font-weight: bold;
+  }
+  
+  .content {
+    position: relative;
+    margin-left: 30px;
+  }
+  
+  .content h2 {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  
+  .content p {
+    margin-top: 0;
+  }
+
+
+  .contact {
+    padding: 20px;
+  }
+  
+  .contact h2 {
+    margin-top: 0;
+  }
+  
+  .contact-form {
+    margin-top: 20px;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-form textarea {
+    height: 100px;
+  }
+  
+  .contact-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0056b3;
+  }
